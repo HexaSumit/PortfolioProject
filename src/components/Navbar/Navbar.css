@@ -1,0 +1,78 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.anchor-link{
+    text-decoration: none;
+    color:white;
+}
+
+.nav-start h2 {
+    font-size: 32px;
+    color: white;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.nav-start h2:hover {
+    transform: scale(1.10);
+}
+
+.list-items {
+    display: flex;
+    gap: 35px;
+    cursor: pointer;
+}
+
+.list-items li {
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+}
+
+.list-items li:hover {
+    transform: scale(1.06);
+}
+
+.home {
+    display: flex;
+    row-gap: 2px;
+    flex-direction: column;
+}
+
+.home img {
+    width: 40px;
+    height: 10px;
+}
+
+.contact-btn {
+    background: linear-gradient(to right, #f14199, #ff8c00);
+    border: none;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.4s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.contact-btn:hover {
+    transform: scale(1.05);
+}
+
+@media only screen and (max-width:768px){
+    .navbar{
+        background-color: lightblue;
+    }
+    .contact-btn{
+        display: none;
+    }
+
+}

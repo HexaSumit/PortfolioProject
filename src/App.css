@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100%;
+}
+.main-container{
+  width: 100%;
+  background-color: rgb(32, 32, 32);
+}
+
+
+
+/* THIS IS A NAVBAR ELEMENT --->PROBLEM IN APPLYING THE IMAGE WHEN TAKEN FROM THE NAVBAR.CSS  */
+.x-letter {
+  background: url('./assets/nav_underline.svg');
+  background-size: cover;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-right: 13px;
+}
+
+
+
+
+
+

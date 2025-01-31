@@ -1,0 +1,144 @@
+.starting-about-section {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.about-me-heading {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+.about-heading {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.about-left-side img {
+    cursor: pointer;
+    width: 250px;
+    /* Adjust image width */
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+    /* Horizontal, Vertical, Blur Radius, Color */
+    border-radius: 10px;
+    /* Optional: Adds rounded corners to the image */
+    transition: all 0.3s ease-in-out;
+    /* Optional: for smooth hover effect */
+}
+
+.about-left-side img:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.about-para {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.skills {
+    margin-top: 30px;
+    color: white;
+}
+
+.skills p {
+    font-family: sans-serif;
+    font-size: 19px;
+    padding-block: 10px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s linear;
+}
+
+.flex:hover {
+    transform: scale(1.1);
+}
+
+.gradient-line {
+    height: 5px;
+    /* Adjust the line thickness */
+    background: linear-gradient(to right, #800080, #ff8c00);
+    /* Gradient from purple to orange */
+    width: 300px;
+    border-radius: 4px;
+    margin-left: 40px;
+}
+
+.lower-box {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.exp-boxes {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.vertical-line {
+    width: 2px;
+    /* Line width */
+    background-color: rgb(201, 201, 201);
+    /* White color */
+    height: 90px;
+    /* Adjust height as needed (e.g., 100% for full height) */
+}
+
+.exp {
+    background: linear-gradient(to right, #800080, #ff8c00);
+    /* Gradient from purple to orange */
+    -webkit-background-clip: text;
+    /* Clips the background to the text */
+    -webkit-text-fill-color: transparent;
+    /* Makes the text transparent so the gradient shows */
+    font-size: 40px;
+    /* Adjust font size */
+    font-weight: bold;
+}
+
+.exp-boxes span {
+    color: white;
+}
+
+
+@media only screen and (max-width:768px){
+    .starting-about-section{
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        margin-left:50px;
+    }
+    .about-me-heading{
+        font-size: 45px;
+    }
+    .about-left-side img{
+        width:200px;
+        margin-bottom: 20px;
+    }
+    .about-section{
+        flex-direction: column;
+    }
+    .gradient-line {
+        height: 3px;
+        background: linear-gradient(to right, #800080, #ff8c00);
+        width: 200px;
+        border-radius: 4px;
+        margin-left: 20px;
+    }
+    
+}

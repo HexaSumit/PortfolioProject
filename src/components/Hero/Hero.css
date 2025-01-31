@@ -1,0 +1,89 @@
+.hero-section {
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 80px;
+}
+
+.profile_image {
+    height: 200px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.headings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.fist-heading {
+    font-size: 36px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name {
+    font-size: 38px;
+    /* background: linear-gradient(to right, #ff8c00, #d63384); */
+    background: linear-gradient(to right, #c000c0, #ff8c00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.country-name {
+    font-size: 38px;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.desc-para {
+    color: rgb(218, 218, 218);
+    padding-bottom: 7px;
+    font-weight: 545;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-me2 {
+    margin-right: 12px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.my-resume {
+    border: 1.5px solid white;
+    color: white;
+    background: transparent;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-left: 12px;
+}
+
+.buttons {
+    cursor: pointer;
+    margin-top: 14px;
+}
+
+.my-resume:hover {
+    border-image: linear-gradient(to right, #800080, #ff8c00) 1;
+    transform: scale(1.05);
+}

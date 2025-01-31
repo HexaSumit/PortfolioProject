@@ -1,0 +1,76 @@
+.footer-sec{
+    padding-top: 30px;
+    padding-bottom:30px;
+  }
+  .top-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+  
+  .top-left-footer h2{
+    font-size: 34px;
+    color:white;
+  }
+  .top-left-footer p{
+    padding-top:6px;
+    font-size: 15px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .top-right-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-email-input-box{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width:280px;
+    background:rgb(44, 44, 44);
+    padding-left:10px;
+    border-radius: 25px;
+  }
+  .footer-email{
+    background:rgb(44, 44, 44);
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    color:white;
+  }
+  .subscribe-btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background: linear-gradient(to right,  #f14199, #ff8c00);
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.4s ease-in-out, transform 0.2s ease-in-out;
+    color:white;
+    margin-left: 14px;
+  }
+  .subscribe-btn:hover{
+    transform: scale(1.05);
+  }
+  .horizontal-line-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .horizontal-line {
+    width: 92%;  
+    height: 1px; 
+    background-color: white;  
+    margin: 20px 0;  
+  }
+  
+  .bottom-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 270px;
+    cursor: pointer;
+  }

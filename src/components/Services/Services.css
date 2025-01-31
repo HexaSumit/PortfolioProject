@@ -1,0 +1,72 @@
+.services-section {
+    margin-top: 70px;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
+.services-heading {
+    cursor: pointer;
+    color: white;
+    font-size: 60px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.services-handler {
+    display: flex;
+    column-gap: 15px;
+    row-gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.square-box {
+    cursor: pointer;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    padding-left: 20px;
+    width: 320px;
+    height: 210px;
+    border: 2px solid white;
+    border-radius: 6px;
+    color: white;
+}
+
+.square-box:hover {
+    border-color: #c400c4;
+    background-color: rgb(117, 35, 7);
+}
+
+.serial-num {
+    font-weight: 550;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.my-services {
+    font-size: 600;
+    font-size: 25px;
+    background: linear-gradient(to right, #c400c4, #ff8c00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 3px;
+}
+
+.squarebox-para {
+    padding-block: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.read-more {
+    padding-block: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.arrow-img {
+    margin-left: 7px;
+    width: 20px;
+}
