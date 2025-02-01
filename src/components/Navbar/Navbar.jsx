@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+
+import img from '../../assets/about_profile.svg'
 
 function Navbar({homeimg}) {
   return (
@@ -11,20 +12,20 @@ function Navbar({homeimg}) {
         <div className="nav-middle">
             <ul className='list-items'>
                 <li className='list-btn home'>
-                    <AnchorLink className='anchor-link' offset={50}>Home</AnchorLink>
+                    <a className='anchor-link' >Home</a>
                     <img src={homeimg} />
                 </li>
                 <li className='list-btn'>
-                  <AnchorLink className='anchor-link' offset={0} href='#about'>About</AnchorLink> 
+                  <a className='anchor-link' href='#about'>About</a> 
                 </li>
                 <li className='list-btn'>
-                 <AnchorLink className='anchor-link' offset={50} href='#services'>Services</AnchorLink>  
+                 <a className='anchor-link' href='#services'>Services</a>  
                 </li>
                 <li className='list-btn'>
-                <AnchorLink className='anchor-link' offset={20} href='#portfolio'>Portfolio</AnchorLink>
+                <a className='anchor-link' href='#portfolio'>Portfolio</a>
                 </li>
                 <li className='list-btn'>
-                <AnchorLink className='anchor-link' offset={50} href='#contact'>Contact</AnchorLink>
+                <a className='anchor-link' href='#contact'>Contact</a>
                 </li>
             </ul>
         </div>
